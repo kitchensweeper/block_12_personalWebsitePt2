@@ -1,0 +1,31 @@
+nav {
+  flex: auto;
+}
+
+section {
+  flex: content;
+  flex-direction: row;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 24px;
+}
+p {
+  width: 75%;
+}
+img {
+  width: 35vh;
+  float: right;
+  max-width: fit-content;
+}
+
+.about-section {
+  border-top: 2px solid;
+  border-color: black;
+}
+
+#portfolio-container {
+    width: 85%;
+    background: #d1ceff;
+    color: #222;    
+    margin: 2em auto;
+    padding: 1em;
+}
